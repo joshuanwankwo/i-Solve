@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: "Open san", sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("bike.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+#name{
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    position: relative;
+    margin: 21px;
+    font-size: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    
+}
+
+
+#calculator{
+       height:580px;
+       width: 320px;
+       background-color: rgb(255, 255, 255, 0.7);
+       border-radius: 10px;
+       margin: 0 auto;
+       box-shadow: opx 4px 0px 8px rgba(0,0,0,0.2),rgba(0,0,0,0.2);
+
+}
+
+
+#keyboard{
+    height: 400px;
+
+}
+
+#result{
+    height: 120px;
+  
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+
+#Output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50px;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty{
+    background-color: transparent;
+}
+
+.number, .operator{
+    cursor: pointer;
+}
+
+.operator:active, .number:active{
+font-size: 10px;
+}
+
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0px;
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #ffa500;
+}
+
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #f08080;
+}
+
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #9477af;
+}
+
